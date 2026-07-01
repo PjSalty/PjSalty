@@ -1,10 +1,10 @@
-Platform engineer. Kubernetes, GitOps, and the layers beneath.
+I'm Matt, a platform engineer. Kubernetes, GitOps, and infrastructure automation.
 
-Notes, postmortems, the lab map, and live telemetry at [saltstice.com](https://saltstice.com). Start with [the build arc](https://saltstice.com/posts/five-months-from-4-7-to-boring/).
+I run a homelab entirely as code and write up the builds and what breaks at [saltstice.com](https://saltstice.com/writing/). The lab map and live telemetry are there too.
 
 | | |
 |---|---|
-| [terraform-provider-truenas](https://github.com/PjSalty/terraform-provider-truenas) | Terraform provider for TrueNAS SCALE. 63 resources, acceptance-tested against real hardware, on the [Registry](https://registry.terraform.io/providers/PjSalty/truenas/latest). |
-| [saltstice-homelab](https://github.com/PjSalty/saltstice-homelab) | A production homelab as a public reference. IaC, manifests, ADRs, runbooks, incident postmortems, and audits. |
-| [saltstice-site](https://github.com/PjSalty/saltstice-site) | The site itself. Hugo, hand-drawn SVG schematics, CI-deployed, telemetry snapshots pushed outward by the cluster. |
-| [bfme-arena-linux-login](https://github.com/PjSalty/bfme-arena-linux-login) | Workaround for the BFME Arena login crash on Wine. |
+| [terraform-provider-truenas](https://github.com/PjSalty/terraform-provider-truenas) | Terraform provider for TrueNAS SCALE, built on the JSON-RPC/WebSocket API and acceptance-tested against a real TrueNAS VM. On the [Terraform Registry](https://registry.terraform.io/providers/PjSalty/truenas/latest). |
+| [saltstice-homelab](https://github.com/PjSalty/saltstice-homelab) | The homelab itself: Terraform, Kubernetes manifests reconciled by Flux, Ansible, ADRs, runbooks, and incident postmortems. |
+| [saltstice-site](https://github.com/PjSalty/saltstice-site) | The site itself: Hugo, SVG diagrams, deployed to GitHub Pages by CI, showing live telemetry from the cluster. |
+| [bfme-arena-linux-login](https://github.com/PjSalty/bfme-arena-linux-login) | A workaround for the BFME Arena login crash under Wine on Linux. |
